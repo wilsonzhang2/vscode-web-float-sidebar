@@ -4,6 +4,10 @@
 
 让 **code-server** 和 **openvscode-server** 的左侧栏**浮在编辑区上面**弹出，而不是把编辑区挤窄。适合折叠屏手机的内屏、平板和小窗口：侧栏不用时不占地方，要用时盖在上面，Claude Code、Codex 这类聊天面板的排版一点都不动。
 
+<p align="center"><img src="docs/media/float-sidebar-iphone-duo.gif" width="540" alt="iPhone Duo 内屏演示：点左边缘侧栏浮出，点别处收起，再与普通侧栏对比"></p>
+
+<p align="center"><i>iPhone Duo 内屏（890 × 626 pt），code-server 全屏，Float on。<a href="docs/media/float-sidebar-iphone-duo.mp4">MP4 版</a> · <a href="demo/">制作方法</a></i></p>
+
 | 侧栏收起：编辑区占满全宽 | 侧栏弹出：浮在上面，编辑区不动 |
 |---|---|
 | ![收起](docs/img/fold-closed.png) | ![弹出](docs/img/fold-open.png) |

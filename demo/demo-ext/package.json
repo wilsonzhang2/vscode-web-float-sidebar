@@ -1,0 +1,16 @@
+{
+  "name": "fs-demo", "displayName": "float-sidebar demo panels", "publisher": "fsdemo", "version": "0.0.1",
+  "engines": { "vscode": "^1.80.0" },
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [ { "id": "demoClaude", "title": "Claude Code", "icon": "icon.svg" } ],
+      "secondarySidebar": [ { "id": "demoCodex", "title": "Codex", "icon": "icon.svg" } ]
+    },
+    "views": {
+      "demoClaude": [ { "type": "webview", "id": "demo.sessions", "name": "Claude Code" } ],
+      "demoCodex": [ { "type": "webview", "id": "demo.codex", "name": "Codex" } ]
+    }
+  }
+}

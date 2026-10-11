@@ -1,3 +1,7 @@
 node_modules/
 test/.work/
 *.png.tmp
+demo/.work/
+demo/node_modules
+demo/demo-ext/fonts/
+notes/

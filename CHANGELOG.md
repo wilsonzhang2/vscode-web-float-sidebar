@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Demo video and GIF for an iPhone Duo inner screen (`docs/media/`), plus the script that records them (`demo/`).
+
 ## 0.1.0 — 2026-10-10
 
 First release.

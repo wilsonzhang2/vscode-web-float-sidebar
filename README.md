@@ -4,6 +4,10 @@ English | [简体中文](README.zh-CN.md)
 
 Makes the primary side bar of **code-server** and **openvscode-server** float *over* the editor instead of pushing it aside. It is made for foldable phones, tablets and small browser windows, where the side bar would otherwise take a third of the screen.
 
+<p align="center"><img src="docs/media/float-sidebar-iphone-duo.gif" width="540" alt="Demo on an iPhone Duo inner screen: tap the edge, the side bar floats in; tap elsewhere, it leaves; then a comparison with the normal side bar"></p>
+
+<p align="center"><i>iPhone Duo inner screen (890 × 626 pt), code-server full screen, Float on. <a href="docs/media/float-sidebar-iphone-duo.mp4">MP4 version</a> · <a href="demo/">how it was made</a></i></p>
+
 | Side bar hidden: the editor uses the full width | Side bar shown: it floats, the editor does not move |
 |---|---|
 | ![closed](docs/img/fold-closed.png) | ![open](docs/img/fold-open.png) |
