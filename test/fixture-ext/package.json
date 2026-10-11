@@ -1,0 +1,13 @@
+{
+  "name": "fs-fixture",
+  "displayName": "float-sidebar test fixture",
+  "publisher": "fstest",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.80.0" },
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "viewsContainers": { "activitybar": [ { "id": "fsFixture", "title": "Sessions", "icon": "icon.svg" } ] },
+    "views": { "fsFixture": [ { "type": "webview", "id": "fsFixture.side", "name": "Session list" } ] }
+  }
+}
